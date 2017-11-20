@@ -13,7 +13,7 @@ import { InsideModel } from '/angular.ts';
       <div>{{Text.name}}</div>
     </app-modal>
     <div style="padding:20px;">
-    <button onclick="document.location.href = '/home/pramudit/angular-project/public/page-2.html'" style="background-color: #4CAF50; /* Green */
+    <button onclick="document.location.href = '/home/pramudit/angular-tour-of-heroes/src/app/page-2.html'" style="background-color: #4CAF50; /* Green */
         border: none;
         color: white;
         padding: 15px 32px;
