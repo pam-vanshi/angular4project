@@ -12,6 +12,15 @@ import { InsideModel } from '/angular.ts';
     <app-modal [modalTitle]="'Some title'" [blocking]='false' [modalId]='modalId'[(ngModel)]="Text.name" >
       <div>{{Text.name}}</div>
     </app-modal>
+    <div style="padding:20px;">
+    <button onclick="document.location.href = '/home/pramudit/angular-project/public/page-2.html'" style="background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;">Go to page-2</button></div>
   `
 })
 export class HeroesComponent implements OnInit {
