@@ -10,7 +10,7 @@ import { ModalService } from './modal/modal.service';
       <app-modal [modalTitle]="'Some title'" [blocking]='false' [modalId]='modalId' [(ngModel)]="hero.name" >
         <div>Text inside the modal: {{hero.name}}</div>
       </app-modal>
-      <a [routerLink] ='/page-2'>Go to page 2</a>`
+      <a [routerLink] = ['/page-2']>Go to page 2</a>`
 })
 export class AppComponent {
   modalId = 'hoplaModal';

@@ -11,7 +11,7 @@ import { TComponent } from './t/t.component'
 const appRoutes: Routes = [
   {
     path: 'page-2',
-    componet: Page2Component
+    componet: page2
   },
   {
     path: 'modal',
