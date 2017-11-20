@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 import { AppComponent } from './app.component';
 import {Page2Component} from './page2/page2.component';
-import {ModalComponent} from './page2/modal.component';
+import {ModalComponent} from './modal/modal.component';
 import { TComponent } from './t/t.component'
 
 
